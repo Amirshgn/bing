@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bing</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #4F4F4F;
+            margin: 0;
+            padding: 0;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #container {
+            max-width: 800px;
+            margin: 200px auto;
+            position: relative;
+            padding: 50px;
+
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        
+
+        #search-form {
+            display: flex;
+        }
+
+        #search-input {
+            padding: 10px;
+            font-size: 16px;
+            margin: 50px;
+            width: 500px;
+            box-shadow: black 2px 5px 2px;
+            border:none;
+
+        }
+        #search-button {
+
+            width:100px;
+            margin: 50px;
+            font-size: 16px;
+            background-color: #757575;
+            color: #fff;
+            border: none;
+
+        }
+            .nav{
+                color: #f2f2f2;
+                width: 70px;
+                margin:50px;
+                padding:1px;
+                font-size: 10px;
+                align-items: center;
+        }
+            .topnav{
+                padding:40px;
+                margin: 20px;
+          }
+                .bnglogo{
+                    width: 150px;
+                }
+    </style>
+</head>
+<body>
+
+<div class="topnav">
+    <img class="bnglogo" src="512px-Microsoft_Bing_logo.svg.png">
+    <a href="#contact"class="nav">Chat</a>
+    <a href="#about"class="nav">Images</a>
+    <a href="#videos"class="nav">Videos</a>
+    <a href="#shopping"class="nav">Shopping</a>
+    <a href="#maps"class="nav">Maps</a>
+    <a href="#news"class="nav">News</a>
+    <a href="#..." class="nav">...</a>
+</div>
+<div>
+
+</div>
+<div id="container">
+    <header>
+        <form id="search-form">
+            <input  type="text" id="search-input"  placeholder="Search the web" maxlength="20000" style="border-radius: 50px 50px 50px"   >
+            <button   type="submit" id="search-button"  style="border-radius: 80px"  >Search</button>
+
+        </form>
+        
+    </header>
+</div>
+</body>
+</html>
